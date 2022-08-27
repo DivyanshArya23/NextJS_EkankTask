@@ -39,9 +39,6 @@ const Editor = () => {
               handleEditorValueChange({ value: e, index });
             }}
             modules={{ toolbar: toolbarConfig }}
-            // formats={formats}
-            // value={editor.value}
-            // ref={this.editorRef}
           />
         );
 
