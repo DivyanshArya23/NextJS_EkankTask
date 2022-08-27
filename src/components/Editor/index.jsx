@@ -54,12 +54,12 @@ const Editor = () => {
 
   return (
     <div className="d-flex flex-column pb-5 mb-5">
-      {editorList?.map((editor, index) => (
+      {editorList?.map((editor, index, list) => (
         <Fragment key={editor.id}>
-          <div className="d-flex flex-row mb-4">
+          <div className="d-flex flex-row mb-4">{getEditor(editor, index)}</div>
+          {index === list.length - 1 && (
             <AddEditor index={index} setEditorList={setEditorList} />
-            {getEditor(editor, index)}
-          </div>
+          )}
         </Fragment>
       ))}
     </div>

@@ -46,7 +46,7 @@ const AddEditor = ({ index, setEditorList }) => {
   );
 
   return (
-    <div className="d-flex px-3 align-items-center">
+    <div className="d-flex align-items-center">
       <span className="position-relative">
         <i
           title="Click to add Block"
