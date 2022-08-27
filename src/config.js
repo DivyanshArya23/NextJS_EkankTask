@@ -15,7 +15,19 @@ export const editorOptions = [
     description: 'Upload or Embed with a link',
   },
 ];
+
 export const toolbarConfig = [
   ['bold', 'italic', 'underline', 'strike'],
   ['image', 'clean'],
 ];
+
+// export const toolbarConfig = [
+//   [{ header: [2, 3, false] }],
+//   ['bold', 'italic', 'underline', 'strike'],
+//   [{ list: 'ordered' }, { list: 'bullet' }],
+//   [{ script: 'sub' }, { script: 'super' }],
+//   ['link', 'image'],
+//   [{ indent: '-1' }, { indent: '+1' }],
+//   [{ align: [] }],
+//   ['blockquote', 'code-block'],
+// ];

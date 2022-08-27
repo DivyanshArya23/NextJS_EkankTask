@@ -7,6 +7,7 @@ import { EDITOR_TYPES, toolbarConfig } from '../../config';
 import ImageCard from '../ImageCard';
 import AddEditor from './AddEditor';
 const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
+import './CustomBubbleTheme';
 
 const Editor = () => {
   const [editorList, setEditorList] = useState([
