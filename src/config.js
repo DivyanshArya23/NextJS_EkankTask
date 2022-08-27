@@ -8,11 +8,13 @@ export const editorOptions = [
     value: EDITOR_TYPES.TEXT,
     label: 'Text',
     description: 'Just Start writing with plain text',
+    image: '/images/turtle.jpg',
   },
   {
     value: EDITOR_TYPES.IMAGE,
     label: 'Image',
     description: 'Upload or Embed with a link',
+    image: '/images/turtle.jpg',
   },
 ];
 

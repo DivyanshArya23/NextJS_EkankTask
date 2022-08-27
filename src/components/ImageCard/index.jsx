@@ -5,7 +5,7 @@ import cls from './ImageCard.module.scss';
 const ImageCard = ({ src }) => {
   return (
     <div
-      className={cns(cls.container, 'm-1')}
+      className={cns(cls.container)}
       style={{ backgroundImage: `url(${src})` }}
     />
   );

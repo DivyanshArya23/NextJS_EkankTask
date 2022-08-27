@@ -1,2 +1,6 @@
-// .reactQuillEditor {
-// }
+@import '../../../styles/_vars';
+
+.reactQuillEditor {
+  border: 1px solid $gray20;
+  border-radius: 5px;
+}

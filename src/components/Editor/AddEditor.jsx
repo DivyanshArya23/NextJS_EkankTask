@@ -81,7 +81,10 @@ const OptionMenu = ({ handleOptionClick }) => {
               }}
             >
               <div className={cns('d-flex')}>
-                <div className={cns('flex-column', cls.image)}></div>
+                <div
+                  className={cns('flex-column', cls.image)}
+                  style={{ backgroundImage: `url(${opt.image})` }}
+                ></div>
                 <div className={cns('flex-column', cls.detail)}>
                   <div className={cns(cls.label)}>{opt.label}</div>
                   <small className={cns(cls.desc)}>{opt.description}</small>
